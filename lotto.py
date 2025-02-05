@@ -16,4 +16,6 @@ while len(lotto) < 6:
         print ("Duplicate number =", num)
 
 print ("Lottery number=" , lotto)
+print ("Lottery number=" , lotto)
+
 
