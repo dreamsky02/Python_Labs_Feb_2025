@@ -8,7 +8,8 @@
 Docsctring:
 
 """
-#open file handle for reading in text mode
+
+
 
 import re
 
@@ -29,7 +30,9 @@ for line in fh_in:
     #m = re.fullmatch(r"^[A-Z].{4}[A-Z]\n$", line)
     #m = re.search(r"^(.)(.).\2\1$",line)
 
-    m = re.search(r"^([A-Z]).*\1$", line")
+for line in fh_in:
+    #re.compile(r"^([A-Z]).*\1$")
+    m = reobj.search(line)
     if m:
         print(line, end="")
 
